@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Apple Card Glassmorphism effect</title>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="card-header">
+                <img src="images/applelogo.png" alt="apple logo">
+            </div>
+            <div class="card-body">
+                <h4>Javohir Hakimov</h4>
+                <img src="./images/cardchip.png" alt="card chip">
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".card"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+</body>
+</html>
